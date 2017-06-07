@@ -5,14 +5,14 @@ class duplicate
     {
         int flag=0;
         Scanner s=new Scanner(System.in);
-        int a[]=new int[5];
-        for(int i=0;i<5;i++)
+        int a[]=new int[n];
+        for(int i=0;i<n;i++)
         {
             a[i]=s.nextInt();
         }
-        for(int i=0;i<5;i++)
+        for(int i=0;i<n;i++)
         {
-            for(int j=i+1;j<5;j++)
+            for(int j=i+1;j<n;j++)
             {
                 if(a[i]==a[j])
                 {
